@@ -1,0 +1,33 @@
+{
+  "rank": 623,
+  "label": "Sable Finance: Active Pool",
+  "chain_id": 56,
+  "target_address": "0x0ccb12c9fb1e1252e60d29ac5c4fdc0640edd72c",
+  "target_contract_name": "ActivePool",
+  "is_proxy": false,
+  "verification_status": "BscScan verified source",
+  "compiler_version": "v0.6.11+commit.5ef660b1",
+  "optimizer": {
+    "enabled": true,
+    "runs": 1
+  },
+  "core_addresses": {
+    "borrower_operations": "0xa49BEC2146fBeeA7314cdbe0Fd222419B0c0602f",
+    "trove_manager": "0xEC035081376ce975Ba9EAF28dFeC7c7A4c483B85",
+    "stability_pool": "0x598913568093AB9F3d549236EB98388271073F18",
+    "default_pool": "0x654Ed83ab231550001Fc1d2281B78fcD84121088",
+    "usds_token": "0x0c6Ed1E73BA73B8441868538E210ebD5DD240FA0",
+    "price_feed": "0xA5220fd82C098b7f1C711e2F1C1d599ccfbCDCB3",
+    "oracle_rate_calc": "0x76Dcd40843C1dE96839bf83790257A36011E6632",
+    "system_state": "0x698ad77E62679c8E6aCfAfea03547C38fC5Ec0aD",
+    "sorted_troves": "0x97C131C309A04BFa1AAE82856d64b696b89dC87C"
+  },
+  "owners": {
+    "active_pool_owner": "0x0000000000000000000000000000000000000000",
+    "borrower_operations_owner": "0x0000000000000000000000000000000000000000",
+    "trove_manager_owner": "0x0000000000000000000000000000000000000000",
+    "stability_pool_owner": "0x0000000000000000000000000000000000000000",
+    "default_pool_owner": "0x0000000000000000000000000000000000000000"
+  },
+  "generated_at_unix": 1776235716
+}

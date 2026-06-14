@@ -1,0 +1,13 @@
+{
+  "source": "BscScan verified source",
+  "contract_name": "ActivePool",
+  "compiler_version": "v0.6.11+commit.5ef660b1",
+  "evm_version": "default",
+  "optimizer": {
+    "enabled": true,
+    "runs": 1
+  },
+  "license": "MIT",
+  "standard_json_input_recovered": true,
+  "reconstructed_source_file_count": 87
+}

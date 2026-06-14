@@ -1,0 +1,1 @@
+{"id":"bee232446d8d429f","source_id_to_path":{"0":"src/CollSurplusPool.sol","1":"src/Dependencies/CheckContract.sol","2":"src/Dependencies/Ownable.sol","3":"src/Dependencies/SafeMath.sol","4":"src/Dependencies/console.sol","5":"src/Interfaces/ICollSurplusPool.sol"},"language":"Solidity"}

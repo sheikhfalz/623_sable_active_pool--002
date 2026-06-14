@@ -1,0 +1,58 @@
+{
+  "project": "623_sable_active_pool",
+  "chain_id": 56,
+  "target": {
+    "name": "ActivePool",
+    "address": "0x0cCb12C9fB1e1252E60d29aC5c4fDc0640edD72C",
+    "source": "src/ActivePool.sol"
+  },
+  "primary_scope": [
+    "src/ActivePool.sol",
+    "src/BorrowerOperations.sol",
+    "src/TroveManager.sol",
+    "src/StabilityPool.sol",
+    "src/DefaultPool.sol",
+    "src/CollSurplusPool.sol",
+    "src/USDSToken.sol",
+    "src/PriceFeed.sol",
+    "src/SystemState.sol",
+    "src/SortedTroves.sol",
+    "src/OracleRateCalculation.sol",
+    "src/TroveHelper.sol",
+    "src/GasPool.sol",
+    "src/TimeLock.sol",
+    "src/SABLE/SableStakingV2.sol",
+    "src/SABLE/CommunityIssuance.sol",
+    "src/SABLE/SABLEToken.sol"
+  ],
+  "interface_scope": [
+    "src/Interfaces/IActivePool.sol",
+    "src/Interfaces/IBorrowerOperations.sol",
+    "src/Interfaces/ITroveManager.sol",
+    "src/Interfaces/IStabilityPool.sol",
+    "src/Interfaces/IDefaultPool.sol",
+    "src/Interfaces/ICollSurplusPool.sol",
+    "src/Interfaces/IUSDSToken.sol",
+    "src/Interfaces/IPriceFeed.sol",
+    "src/Interfaces/ISystemState.sol",
+    "src/Interfaces/ISortedTroves.sol",
+    "src/Interfaces/IOracleRateCalculation.sol",
+    "src/Interfaces/ITroveHelper.sol",
+    "src/Interfaces/ISableStakingV2.sol",
+    "src/Interfaces/ICommunityIssuance.sol",
+    "src/Interfaces/ISABLEToken.sol"
+  ],
+  "conditional_scope": [
+    "verified-external:SableRewarder@0x23d253F1Ab38a1Ec8c05103232B4eFaFB6A1bdEb",
+    "src/BNBTransferScript.sol",
+    "src/Proxy/*.sol"
+  ],
+  "excluded": [
+    "src/TestContracts/**",
+    "test/**",
+    "lib/**",
+    "out/**",
+    "cache/**"
+  ],
+  "include_rule": "deployed contract or direct live dependency that can move/account funds, debt, collateral, rewards, oracle solvency, or authorization"
+}

@@ -1,0 +1,23 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.6.11"
+optimizer = true
+optimizer_runs = 1
+bytecode_hash = "none"
+cache_path = "cache"
+ignored_error_codes = [1878, 5574]
+remappings = [
+    "@openzeppelin/=src/@openzeppelin/",
+    "forge-std/=lib/forge-std/src/"
+]
+
+[fmt]
+line_length = 120
+tab_width = 4
+bracket_spacing = true
+int_types = "long"
+quote_style = "double"
+number_underscore = "preserve"
+multiline_func_header = "params_first"
